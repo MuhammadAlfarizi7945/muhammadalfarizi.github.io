@@ -10,3 +10,43 @@
 section {
   padding-top: 5rem;
 }
+
+/* Font  */
+@font-face {
+  font-family: quicksand;
+  src: url("font/Quicksand-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: sofia;
+  src: url(font/Sofia-Regular.ttf);
+}
+
+@font-face {
+  font-family: pacifico;
+  src: url("font/Pacifico-Regular.ttf");
+}
+
+a {
+  font-family: sofia;
+}
+
+z {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+i {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  font-family: pacifico;
+}
+
+p {
+  font-family: quicksand;
+}
