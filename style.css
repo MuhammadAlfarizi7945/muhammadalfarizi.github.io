@@ -27,20 +27,30 @@ section {
   src: url("font/Pacifico-Regular.ttf");
 }
 
+@font-face {
+  font-family: abeezee;
+  src: url(font/ABeeZee-Italic.ttf);
+}
+
+@font-face {
+  font-family: courgette;
+  src: url(font/Courgette-Regular.ttf);
+}
+
 a {
   font-family: sofia;
 }
 
 z {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: sofia;
 }
 
 i {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: abeezee;
 }
 
 h1 {
-  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: courgette;
 }
 
 h2 {
