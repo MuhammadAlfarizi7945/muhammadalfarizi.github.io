@@ -60,3 +60,10 @@ h2 {
 p {
   font-family: quicksand;
 }
+
+.back {
+  background-color: #0099ff;
+  margin: auto;
+  width: 85%;
+  height: 40px;
+}
