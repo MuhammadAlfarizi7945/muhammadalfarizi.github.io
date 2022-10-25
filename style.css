@@ -41,6 +41,11 @@ section {
   src: url(font/Courgette-Regular.ttf);
 }
 
+@font-face {
+  font-family: cinzel;
+  src: url(font/cinzel.ttf);
+}
+
 a {
   font-family: sofia;
 }
@@ -65,10 +70,19 @@ p {
   font-family: quicksand;
 }
 
+h5 {
+  font-family: cinzel;
+  font-weight: 700;
+}
+
 .back {
   background-color: #0099ff;
   border-radius: 10px;
   margin: auto;
   width: 85%;
   height: 40px;
+}
+
+section.wibuu {
+  line-height: 15px;
 }
