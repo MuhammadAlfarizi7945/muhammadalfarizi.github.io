@@ -1,6 +1,6 @@
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #8d9eff;
 }
 
 .foto {
@@ -8,11 +8,23 @@
 }
 
 #My_Gallery {
-  background-color: #e2edff;
+  background-color: #8d9eff;
+}
+
+.card {
+  border-radius: 10px;
 }
 
 section {
   padding-top: 5rem;
+}
+
+.navbar {
+  background-color: #3b3486;
+}
+
+.footer {
+  background-color: #3b3486;
 }
 
 /* Font  */
@@ -46,6 +58,11 @@ section {
   src: url(font/cinzel.ttf);
 }
 
+@font-face {
+  font-family: patrick;
+  src: url(font/PatrickHand-Regular.ttf);
+}
+
 a {
   font-family: sofia;
 }
@@ -76,13 +93,7 @@ h5 {
 }
 
 .back {
-  background-color: #0099ff;
-  border-radius: 10px;
-  margin: auto;
-  width: 85%;
-  height: 40px;
-}
-
-section.wibuu {
-  line-height: 15px;
+  margin-top: 30px;
+  font-family: quicksand;
+  font-weight: 300;
 }
