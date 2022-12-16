@@ -1,14 +1,22 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .jumbotron {
   padding-top: 6rem;
-  background-color: #8d9eff;
+  background-color: #a871d6;
 }
 
 .foto {
   background-color: #e2edff;
 }
 
+#My_Gallery img {
+  padding: 10px 10px 10px 10px;
+}
+
 #My_Gallery {
-  background-color: #8d9eff;
+  background-color: #a871d6;
 }
 
 .card {
@@ -20,11 +28,11 @@ section {
 }
 
 .navbar {
-  background-color: #3b3486;
+  background-color: #292256;
 }
 
 .footer {
-  background-color: #3b3486;
+  background-color: #292256;
 }
 
 /* Font  */
@@ -91,3 +99,7 @@ h5 {
   font-family: cinzel;
   font-weight: 700;
 }
+
+/* CSS POPUP */
+
+/* AKHIR CSS POPUP */
