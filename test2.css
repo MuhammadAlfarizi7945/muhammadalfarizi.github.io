@@ -219,7 +219,7 @@ body.dark .sidebar header .toggle {
 
 .sidebar li a {
   height: 100%;
-  width: 100%;
+  width: 1000%;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -407,8 +407,4 @@ svg {
 
 h2 {
   margin-top: 4rem;
-}
-
-button {
-  background-color: var(--primary-color);
 }

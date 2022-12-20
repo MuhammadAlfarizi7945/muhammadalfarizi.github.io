@@ -1,0 +1,105 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #a871d6;
+}
+
+.foto {
+  background-color: #e2edff;
+}
+
+#My_Gallery img {
+  padding: 10px 10px 10px 10px;
+}
+
+#My_Gallery {
+  background-color: #a871d6;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.navbar {
+  background-color: #292256;
+}
+
+.footer {
+  background-color: #292256;
+}
+
+/* Font  */
+@font-face {
+  font-family: quicksand;
+  src: url("font/Quicksand-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: sofia;
+  src: url(font/Sofia-Regular.ttf);
+}
+
+@font-face {
+  font-family: pacifico;
+  src: url("font/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family: abeezee;
+  src: url(font/ABeeZee-Italic.ttf);
+}
+
+@font-face {
+  font-family: courgette;
+  src: url(font/Courgette-Regular.ttf);
+}
+
+@font-face {
+  font-family: cinzel;
+  src: url(font/cinzel.ttf);
+}
+
+@font-face {
+  font-family: patrick;
+  src: url(font/PatrickHand-Regular.ttf);
+}
+
+a {
+  font-family: sofia;
+}
+
+z {
+  font-family: sofia;
+}
+
+i {
+  font-family: abeezee;
+}
+
+h1 {
+  font-family: courgette;
+}
+
+h2 {
+  font-family: pacifico;
+}
+
+p {
+  font-family: quicksand;
+}
+
+h5 {
+  font-family: cinzel;
+  font-weight: 700;
+}
+
+/* CSS POPUP */
+
+/* AKHIR CSS POPUP */
