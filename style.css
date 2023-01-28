@@ -44,6 +44,9 @@ body {
   transition: var(--tran-05);
 }
 
+#back {
+}
+
 body.dark {
   --body-color: #18191a;
   --sidebar-color: #242526;
@@ -413,10 +416,12 @@ body.dark .card {
 svg {
   background-color: var(--primary-color);
 }
+
 /* Akhir Contact */
 
 footer {
   background: var(--primary-color);
+  padding: 0px 20px;
 }
 
 body.dark .jumbotron path,
@@ -428,13 +433,17 @@ h2 {
   margin-top: 4rem;
 }
 
+h3 {
+  font: 600;
+}
+
 #jumbotron {
   padding-top: 4rem;
 }
 
 h5 {
   font-family: cinzel;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 #instagram a {
