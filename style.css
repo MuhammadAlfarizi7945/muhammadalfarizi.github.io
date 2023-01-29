@@ -338,7 +338,15 @@ body.dark .menu-bar .mode i.moon {
 body.dark .switch::before {
   left: 25px;
 }
-/* Akhir Sidebar */
+
+.sidebar.close .icon:hover {
+  background-color: var(--primary-color);
+  padding: 15px 10px 15px 10px;
+  border-radius: 7px;
+}
+/* ========== Akhir Sidebar ========== */
+
+/* ===== CSS HOME ===== */
 .home {
   position: relative;
   left: 280px;
@@ -362,12 +370,10 @@ body.dark .home h2 {
 
 body.dark .home .paragraf {
   color: var(--text-color);
-  text-align: center;
 }
 
 body.dark .home .card-text {
   color: var(--card-color);
-  text-align: center;
 }
 
 .sidebar.close ~ .home {
@@ -375,12 +381,14 @@ body.dark .home .card-text {
   width: calc(100% - 88px);
 }
 
+/* ===== AKHIR CSS HOME ====== */
+
 .jumbotron {
   padding-top: 2.5rem;
   background-color: var(--primary-color);
 }
 
-/* About */
+/* ===== CSS ABOUT ====== */
 #About {
   padding-top: 6rem;
   background-color: var(--body-color);
@@ -390,9 +398,9 @@ body.dark .home .card-text {
 svg {
   background-color: var(--primary-color);
 }
-/* akhir about */
+/* ===== AKHIR CSS ABOUT ===== */
 
-/* my gallery */
+/* ===== CSS MY GALLERY ===== */
 #My_Gallery {
   background-color: var(--primary-color);
 }
@@ -404,9 +412,22 @@ svg {
 body.dark .card {
   background: var(--img-back-color);
 }
-/* Akhir MyGallery */
 
-/* Contact */
+#My_Gallery .card a:hover {
+  background-color: var(--body-color);
+  color: var(--text-color);
+  transition: var(--tran-05);
+}
+
+#My_Gallery .card:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--transparent-color-text);
+  transition: var(--tran-05);
+}
+
+/* ===== AKHIR CSS MY GALLERY ===== */
+
+/* ===== CSS CONTACT ===== */
 #Contact {
   padding-top: 6rem;
   background-color: var(--body-color);
@@ -416,13 +437,14 @@ body.dark .card {
 svg {
   background-color: var(--primary-color);
 }
+/* ===== AKHIR CSS CONTACT ===== */
 
-/* Akhir Contact */
-
+/* ===== CSS FOOTER ===== */
 footer {
   background: var(--primary-color);
   padding: 0px 20px;
 }
+/*  ===== AKHIR CSS FOOTER ===== */
 
 body.dark .jumbotron path,
 svg {
@@ -439,11 +461,16 @@ h3 {
 
 #jumbotron {
   padding-top: 4rem;
+  color: white;
+}
+
+#jumbotron h1 {
+  padding-top: 1rem;
+  color: white;
 }
 
 h5 {
   font-family: cinzel;
-  font-weight: 600;
 }
 
 #instagram a {
@@ -458,34 +485,49 @@ h5 {
   transition: var(--tran-05);
 }
 
-.sidebar.close .icon:hover {
-  background-color: var(--primary-color);
-  padding: 15px 10px 15px 10px;
-  border-radius: 7px;
-}
+/* ===== CSS EVENT JEJEPANGAN ===== */
 
-#My_Gallery .card a:hover {
+#event svg {
   background-color: var(--body-color);
-  color: var(--text-color);
-  transition: var(--tran-05);
 }
 
-#My_Gallery .card:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: var(--transparent-color-text);
-  transition: var(--tran-05);
+#event path {
+  fill: var(--primary-color);
 }
 
-#My_Gallery .card a {
+#event .card a {
   background-color: var(--primary-color);
 }
 
-#My_Gallery .modal {
+#event .modal {
   color: black;
 }
 
-#My_Gallery .modal a:hover {
+#event .modal a:hover {
   background-color: #54b435;
   border-radius: 6px;
   transition: var(--tran-03);
 }
+/* ===== AKHIR CSS EVENT JEJEPANGAN ===== */
+
+/* ===== CSS MUSIC ===== */
+#music {
+  background-color: var(--primary-color);
+}
+
+#music img {
+  padding: 20px 20px;
+}
+
+#music svg {
+  background-color: var(--body-color);
+}
+
+#music .card {
+  margin-top: 20px;
+}
+
+#music path {
+  fill: var(--primary-color);
+}
+/* ===== AKHIR CSS MUSIC ===== */
