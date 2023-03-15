@@ -365,11 +365,11 @@ body.dark .switch::before {
   color: var(--h1-color);
 }
 
-body.dark .home h1 {
+.home body.dark .home h1 {
   color: var(--text-color);
 }
 
-body.dark .home h2 {
+body.dark .home h1 {
   color: var(--text-color);
 }
 
@@ -399,7 +399,7 @@ body.dark .home .card-text {
   background-color: var(--body-color);
 }
 
-#About .container body.dark path,
+body.dark path,
 svg {
   background-color: var(--body-color);
 }
@@ -443,6 +443,10 @@ svg,
 path {
   fill: var(--primary-color);
 }
+
+#Contact .isicontact {
+  padding-bottom: 100px;
+}
 /* ===== AKHIR CSS CONTACT ===== */
 
 /* ===== CSS FOOTER ===== */
@@ -454,7 +458,7 @@ footer {
 
 body.dark .jumbotron path,
 svg {
-  fill: var(--body-color);
+  fill: var(--primary-color);
 }
 
 h2 {
@@ -497,9 +501,9 @@ h5 {
   background-color: var(--body-color);
 }
 
-#event path {
+/* #event path {
   fill: var(--primary-color);
-}
+} */
 
 #event .card a {
   background-color: var(--primary-color);
@@ -515,25 +519,3 @@ h5 {
   transition: var(--tran-03);
 }
 /* ===== AKHIR CSS EVENT JEJEPANGAN ===== */
-
-/* ===== CSS MUSIC ===== */
-#music {
-  background-color: var(--primary-color);
-}
-
-#music img {
-  padding: 20px 20px;
-}
-
-#music svg {
-  background-color: var(--body-color);
-}
-
-#music .card {
-  margin-top: 20px;
-}
-
-#music path {
-  fill: var(--primary-color);
-}
-/* ===== AKHIR CSS MUSIC ===== */
